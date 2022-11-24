@@ -1,0 +1,4 @@
+aws:
+  access-key-id: test
+  secret-access-key: test
+  endpoint: http://localhost:4566
