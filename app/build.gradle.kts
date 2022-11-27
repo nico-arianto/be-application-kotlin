@@ -51,6 +51,7 @@ dependencies {
     implementation("com.google.guava:guava:31.1-jre")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("software.amazon.awssdk:dynamodb")
 
     runtimeOnly("org.springframework.boot:spring-boot-devtools")

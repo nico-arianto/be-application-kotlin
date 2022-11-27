@@ -1,2 +1,9 @@
 aws:
   region: ap-southeast-1
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
