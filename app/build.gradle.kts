@@ -41,7 +41,7 @@ repositories {
 dependencies {
     // Align versions of all Kotlin components
     implementation(platform(kotlin("bom")))
-    implementation(platform("software.amazon.awssdk:bom:2.18.25"))
+    implementation(platform("software.amazon.awssdk:bom:2.18.27"))
 
     // Use the Kotlin JDK 8 standard library.
     implementation(kotlin("stdlib-jdk8"))
