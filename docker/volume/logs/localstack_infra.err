@@ -1,0 +1,23 @@
+SERVICES variable is ignored if EAGER_SERVICE_LOADING=0.
+2022-12-21T14:24:31.942  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2022-12-21T14:24:31.942  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2022-12-21T14:24:31.944  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2022-12-21T14:24:31.944  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : Initializing DynamoDB Local with the following configuration:
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : Port:	41751
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : InMemory:	false
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : DbPath:	/var/lib/localstack/tmp/state/dynamodb
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : SharedDb:	false
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : shouldDelayTransientStatuses:	false
+2022-12-21T14:25:47.407  INFO --- [functhread18] l.services.dynamodb.server : CorsParams:	null
+2022-12-21T14:25:47.415  INFO --- [functhread18] l.services.dynamodb.server : 
+2022-12-21T14:25:48.534  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "require" took 1587.55ms
+2022-12-21T14:25:48.657  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeTable => 400 (ResourceNotFoundException)
+2022-12-21T14:25:49.237  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.CreateTable => 200
+2022-12-21T14:25:49.255  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeTable => 200
+2022-12-21T14:25:49.260  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.UpdateTimeToLive => 200
+2022-12-21T14:25:49.264  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeTimeToLive => 200
+2022-12-21T14:25:49.280  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.DescribeTable => 200
+2022-12-21T14:25:49.290  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeContinuousBackups => 400 (UnknownOperationException)
+2022-12-21T14:25:49.293  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.DescribeTimeToLive => 200
+2022-12-21T14:25:49.296  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.ListTagsOfResource => 200
