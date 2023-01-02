@@ -9,8 +9,8 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 @EnableAutoConfiguration
-class Application
+class MainApplication
 
 fun main(args: Array<String>) {
-    runApplication<Application>(*args)
+    runApplication<MainApplication>(*args)
 }

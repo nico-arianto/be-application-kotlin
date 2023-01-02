@@ -5,7 +5,7 @@ package org.nicoarianto
 
 import kotlin.test.Test
 
-class ApplicationTest {
+class MainApplicationTest {
     @Test
     fun appHasAGreeting() {
     }

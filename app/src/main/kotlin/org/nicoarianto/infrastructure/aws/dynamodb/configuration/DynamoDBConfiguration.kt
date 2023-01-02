@@ -1,5 +1,6 @@
-package org.nicoarianto.infrastructure.aws.dynamodb
+package org.nicoarianto.infrastructure.aws.dynamodb.configuration
 
+import org.nicoarianto.infrastructure.aws.configuration.AwsProperties
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials

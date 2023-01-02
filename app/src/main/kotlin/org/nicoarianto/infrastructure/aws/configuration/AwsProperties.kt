@@ -1,4 +1,4 @@
-package org.nicoarianto.infrastructure.aws.dynamodb
+package org.nicoarianto.infrastructure.aws.configuration
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import java.net.URI
